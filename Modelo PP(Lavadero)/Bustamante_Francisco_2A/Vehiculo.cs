@@ -89,7 +89,7 @@ namespace Lavadero
         #region Sobrecargas
         public override string ToString()
         {
-            return this.Mostrar();
+            return Mostrar();
         }
         #endregion
 
