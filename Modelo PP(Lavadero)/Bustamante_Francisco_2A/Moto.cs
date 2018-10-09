@@ -16,8 +16,8 @@ namespace Lavadero
         protected override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
-            sb.Append(base.ToString());
-            sb.AppendFormat(" - Cilindrada: {0.##}", this._cilindrada);
+            sb.Append(base.Mostrar());
+            sb.AppendFormat(" - Cilindrada: {0}", this._cilindrada);
 
             return sb.ToString();
         }

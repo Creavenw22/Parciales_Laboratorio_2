@@ -16,8 +16,8 @@ namespace Lavadero
         protected override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
-            sb.Append(base.ToString());
-            sb.AppendFormat(" - Cantidad de Asientos: {0.##}", this._tara);
+            sb.Append(base.Mostrar());
+            sb.AppendFormat(" - Tara: {0}", this._tara);
 
             return sb.ToString();
         }

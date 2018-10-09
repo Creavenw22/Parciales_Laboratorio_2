@@ -32,6 +32,7 @@ namespace Lavadero
                 sb.AppendFormat("**Lavadero {0}**",_razonSocial);
                 sb.AppendLine();
                 sb.AppendFormat("Razon social: {0}", _razonSocial);
+                sb.AppendLine();
                 sb.AppendLine("Precios vigentes: ");
                 sb.AppendLine();
                 sb.AppendFormat("Precio auto: {0}", _precioAuto);
@@ -121,7 +122,7 @@ namespace Lavadero
                 _precioAuto = num.Next(150, 565);
                 _precioCamion = num.Next(150, 565);
                 _precioMoto = num.Next(150, 565);
-            } while ((_precioAuto != _precioCamion) && (_precioAuto != _precioMoto)&&(_precioCamion!=_precioMoto));
+            } while ((_precioAuto == _precioCamion) || (_precioAuto == _precioMoto) || (_precioCamion==_precioMoto));
         }
 
         private Lavadero()
