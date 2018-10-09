@@ -19,7 +19,7 @@ namespace Lavadero
         }
         #endregion
 
-    public abstract class Vehiculo
+    public class Vehiculo
     {
         
 

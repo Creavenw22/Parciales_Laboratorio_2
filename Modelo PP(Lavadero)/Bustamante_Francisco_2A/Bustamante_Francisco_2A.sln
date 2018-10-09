@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bustamante_Francisco_2A", "Bustamante_Francisco_2A.csproj", "{801478AE-CA55-4B34-B9D5-5B59BE50D646}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_Lavadero", "..\Test_Lavadero\Test_Lavadero.csproj", "{4C672800-62B2-489B-81F1-268F8616F009}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{801478AE-CA55-4B34-B9D5-5B59BE50D646}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{801478AE-CA55-4B34-B9D5-5B59BE50D646}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{801478AE-CA55-4B34-B9D5-5B59BE50D646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C672800-62B2-489B-81F1-268F8616F009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C672800-62B2-489B-81F1-268F8616F009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C672800-62B2-489B-81F1-268F8616F009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C672800-62B2-489B-81F1-268F8616F009}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
