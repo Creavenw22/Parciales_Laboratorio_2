@@ -40,24 +40,20 @@ namespace Lavadero
                 sb.AppendLine();
                 sb.AppendFormat("Precio Moto: {0}", _precioMoto);
                 sb.AppendLine();
-                sb.AppendLine(this.Vehiculos);
+                foreach (Vehiculo item in this._vehiculos)
+                {
+                    sb.AppendLine(item.ToString());
+                }
 
                 return sb.ToString();
             }
         }
 
-        public string Vehiculos
+        public List<Vehiculo> Vehiculos
         {
             get
             {
-                StringBuilder sb = new StringBuilder();
-
-                foreach (Vehiculo item in this._vehiculos)
-                {
-                    sb.AppendLine(item.ToString());
-                }
-                
-                return sb.ToString();
+                return this._vehiculos;
             }
         }
 
