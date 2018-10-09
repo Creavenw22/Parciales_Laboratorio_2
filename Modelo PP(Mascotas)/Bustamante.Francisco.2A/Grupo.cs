@@ -40,7 +40,7 @@ namespace Mascotas
             this._tipo = TipoManada.Unica;
         }
 
-        public Grupo(string nombre)
+        public Grupo(string nombre) : this ()
         {
             this._nombre = nombre;
         }
@@ -99,12 +99,12 @@ namespace Mascotas
             return manada;
         }
 
-        public static explicit operator string(Grupo manada)
+        public static implicit operator string(Grupo manada)
         {
             StringBuilder pandilla = new StringBuilder();
             pandilla.AppendFormat("**{0} {1}**",manada._nombre,manada._tipo);
 
-            pandilla.AppendLine("Integrantes: ");
+            pandilla.AppendLine("\nIntegrantes: ");
             
 
             foreach (Mascota item in manada._manada)
