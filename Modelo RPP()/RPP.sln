@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPP", "RPP.csproj", "{EC7C8181-A8D0-4AC8-B6A3-E392DD83B046}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC7C8181-A8D0-4AC8-B6A3-E392DD83B046}.Debug|x86.ActiveCfg = Debug|x86
+		{EC7C8181-A8D0-4AC8-B6A3-E392DD83B046}.Debug|x86.Build.0 = Debug|x86
+		{EC7C8181-A8D0-4AC8-B6A3-E392DD83B046}.Release|x86.ActiveCfg = Release|x86
+		{EC7C8181-A8D0-4AC8-B6A3-E392DD83B046}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B4849C4-6D5E-49A2-A23C-13D210852C8B}
+	EndGlobalSection
+EndGlobal
